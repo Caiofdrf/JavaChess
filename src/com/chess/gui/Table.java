@@ -64,6 +64,11 @@ public class Table {
         fileMenu.add(exitMenuItem);
         return fileMenu;
     }
+    private class AskPiecePromotion extends JPanel {
+        AskPiecePromotion() {
+
+        }
+    }
     private class BoardPanel extends JPanel {
         final List<TilePanel> boardTiles;
         BoardPanel() {
